@@ -77,11 +77,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Projeto Massa em Casa" },
+      {
+        name: "description",
+        content:
+          "Plano digital fitness para organizar treinos em casa, alimentação e hábitos com mais consistência.",
+      },
+      { name: "author", content: "Projeto Massa em Casa" },
+      { property: "og:title", content: "Projeto Massa em Casa" },
+      {
+        property: "og:description",
+        content:
+          "Organize treino, alimentação e rotina em um produto digital fitness simples e prático.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
