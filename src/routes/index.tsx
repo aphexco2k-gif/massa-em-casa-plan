@@ -267,15 +267,15 @@ function Index() {
             </div>
 
             <div className="reveal-up lg:col-start-2 lg:row-span-2 lg:row-start-1">
-              <div className="relative mx-auto max-w-xl rounded-3xl border border-border bg-card p-2 shadow-[var(--shadow-soft)]">
+              <div className="relative mx-auto max-w-xl rounded-lg border border-border bg-card p-2 shadow-[var(--shadow-soft)]">
                 <img
                   src={heroImage}
                   alt="Mockup do Projeto Massa em Casa em celular e notebook com treino e alimentação organizada"
                   width={1400}
                   height={1100}
-                  className="aspect-[1.05/1] w-full rounded-2xl object-cover"
+                  className="aspect-[1.05/1] w-full rounded-lg object-cover"
                 />
-                <div className="absolute -bottom-5 left-5 right-5 rounded-2xl border border-border bg-surface-elevated p-4 shadow-[var(--shadow-soft)] sm:left-8 sm:right-8">
+                <div className="absolute -bottom-5 left-5 right-5 rounded-lg border border-border bg-surface-elevated p-4 shadow-[var(--shadow-soft)] sm:left-8 sm:right-8">
                   <div className="grid grid-cols-3 gap-3 text-center">
                     <div>
                       <p className="text-lg font-black text-primary">01</p>
@@ -327,9 +327,9 @@ E depois de algumas semanas sente que não saiu do lugar.`}
                 {problemCards.map((item) => (
                   <div
                     key={item}
-                    className="reveal-up rounded-2xl border border-border bg-card p-5 shadow-[var(--shadow-soft)]"
+                    className="reveal-up rounded-lg border border-border bg-card p-5 shadow-[var(--shadow-soft)]"
                   >
-                    <div className="mb-4 flex size-11 items-center justify-center rounded-xl bg-secondary text-destructive">
+                    <div className="mb-4 flex size-11 items-center justify-center rounded-lg bg-secondary text-destructive">
                       <X className="size-5" aria-hidden="true" />
                     </div>
                     <p className="font-bold text-card-foreground">{item}</p>
@@ -347,9 +347,9 @@ E depois de algumas semanas sente que não saiu do lugar.`}
               title="Tudo o que você precisa para começar com organização."
             />
             <div className="mt-12 grid gap-5 lg:grid-cols-2">
-              <article className="reveal-up rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)] sm:p-8">
+              <article className="reveal-up rounded-lg border border-border bg-card p-6 shadow-[var(--shadow-soft)] sm:p-8">
                 <div className="mb-6 flex items-center gap-4">
-                  <div className="flex size-12 items-center justify-center rounded-2xl bg-primary text-primary-foreground">
+                  <div className="flex size-12 items-center justify-center rounded-lg bg-primary text-primary-foreground">
                     <ClipboardCheck className="size-6" aria-hidden="true" />
                   </div>
                   <div>
@@ -369,9 +369,9 @@ E depois de algumas semanas sente que não saiu do lugar.`}
                 </ul>
               </article>
 
-              <article className="reveal-up rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)] sm:p-8">
+              <article className="reveal-up rounded-lg border border-border bg-card p-6 shadow-[var(--shadow-soft)] sm:p-8">
                 <div className="mb-6 flex items-center gap-4">
-                  <div className="flex size-12 items-center justify-center rounded-2xl bg-primary text-primary-foreground">
+                  <div className="flex size-12 items-center justify-center rounded-lg bg-primary text-primary-foreground">
                     <Leaf className="size-6" aria-hidden="true" />
                   </div>
                   <div>
@@ -392,7 +392,7 @@ E depois de algumas semanas sente que não saiu do lugar.`}
                 </ul>
               </article>
             </div>
-            <div className="reveal-up mt-8 rounded-2xl border border-border bg-secondary p-5 text-sm leading-6 text-muted-foreground">
+            <div className="reveal-up mt-8 rounded-lg border border-border bg-secondary p-5 text-sm leading-6 text-muted-foreground">
               Material educativo e de organização. Necessidades nutricionais variam de pessoa para
               pessoa.
             </div>
@@ -408,7 +408,7 @@ E depois de algumas semanas sente que não saiu do lugar.`}
           <div className="mx-auto max-w-6xl">
             <SectionHeader eyebrow="Rotina" title="Pare de improvisar. Comece a seguir uma rotina." />
             <div className="mt-12 grid gap-5 lg:grid-cols-2">
-              <div className="reveal-up rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)] sm:p-8">
+              <div className="reveal-up rounded-lg border border-border bg-card p-6 shadow-[var(--shadow-soft)] sm:p-8">
                 <h3 className="mb-6 flex items-center gap-3 text-2xl font-black uppercase text-foreground">
                   <CircleAlert className="size-6 text-destructive" aria-hidden="true" />
                   Antes
@@ -422,7 +422,7 @@ E depois de algumas semanas sente que não saiu do lugar.`}
                   ))}
                 </ul>
               </div>
-              <div className="reveal-up rounded-3xl border border-primary bg-card p-6 shadow-[var(--shadow-glow)] sm:p-8">
+              <div className="reveal-up rounded-lg border border-primary bg-card p-6 shadow-[var(--shadow-glow)] sm:p-8">
                 <h3 className="mb-6 flex items-center gap-3 text-2xl font-black uppercase text-foreground">
                   <BadgeCheck className="size-6 text-primary" aria-hidden="true" />
                   Depois
@@ -448,7 +448,7 @@ E depois de algumas semanas sente que não saiu do lugar.`}
               text="Os dois planos foram pensados para quem quer treinar em casa com mais clareza e consistência."
             />
             <div className="mt-12 grid gap-6 lg:grid-cols-2 lg:items-stretch">
-              <article className="reveal-up flex flex-col rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)] sm:p-8">
+              <article className="reveal-up flex flex-col rounded-lg border border-border bg-card p-6 shadow-[var(--shadow-soft)] sm:p-8">
                 <div className="mb-6">
                   <p className="text-xs font-black uppercase tracking-[0.18em] text-primary">
                     Plano Básico
@@ -472,7 +472,7 @@ E depois de algumas semanas sente que não saiu do lugar.`}
                 </div>
               </article>
 
-              <article className="reveal-up relative flex flex-col rounded-3xl border border-primary bg-card p-6 shadow-[var(--shadow-glow-strong)] sm:p-8">
+              <article className="reveal-up relative flex flex-col rounded-lg border border-primary bg-card p-6 shadow-[var(--shadow-glow-strong)] sm:p-8">
                 <div className="absolute right-5 top-5 rounded-full bg-premium px-4 py-2 text-xs font-black uppercase tracking-[0.16em] text-premium-foreground">
                   Mais completo
                 </div>
@@ -504,7 +504,7 @@ E depois de algumas semanas sente que não saiu do lugar.`}
               </article>
             </div>
 
-            <div className="reveal-up mt-8 rounded-3xl border border-warning bg-secondary p-6 shadow-[var(--shadow-soft)] sm:p-8">
+            <div className="reveal-up mt-8 rounded-lg border border-warning bg-secondary p-6 shadow-[var(--shadow-soft)] sm:p-8">
               <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                 <div>
                   <p className="text-sm font-black uppercase tracking-[0.18em] text-warning">
@@ -535,7 +535,7 @@ E depois de algumas semanas sente que não saiu do lugar.`}
               <p className="mt-5 text-lg leading-8 text-muted-foreground">
                 Para quem quer ir além do material e ter um ambiente de acompanhamento.
               </p>
-              <p className="mt-5 rounded-2xl border border-border bg-secondary p-4 text-sm leading-6 text-muted-foreground">
+              <p className="mt-5 rounded-lg border border-border bg-secondary p-4 text-sm leading-6 text-muted-foreground">
                 A mentoria não substitui acompanhamento médico, nutricional ou profissional de
                 educação física individualizado.
               </p>
@@ -544,7 +544,7 @@ E depois de algumas semanas sente que não saiu do lugar.`}
               {mentorshipItems.map((item) => (
                 <div
                   key={item}
-                  className="reveal-up rounded-2xl border border-border bg-card p-5 shadow-[var(--shadow-soft)]"
+                  className="reveal-up rounded-lg border border-border bg-card p-5 shadow-[var(--shadow-soft)]"
                 >
                   <Users className="mb-4 size-6 text-primary" aria-hidden="true" />
                   <p className="font-bold text-card-foreground">{item}</p>
@@ -561,7 +561,7 @@ E depois de algumas semanas sente que não saiu do lugar.`}
               {faqs.map((faq) => (
                 <details
                   key={faq.question}
-                  className="reveal-up group rounded-2xl border border-border bg-card p-5 shadow-[var(--shadow-soft)]"
+                  className="reveal-up group rounded-lg border border-border bg-card p-5 shadow-[var(--shadow-soft)]"
                 >
                   <summary className="flex cursor-pointer list-none items-start justify-between gap-4 text-base font-black text-foreground">
                     <span className="flex items-start gap-3">
@@ -578,8 +578,8 @@ E depois de algumas semanas sente que não saiu do lugar.`}
         </section>
 
         <section className="px-5 py-16 sm:px-8 sm:py-24">
-          <div className="mx-auto max-w-5xl rounded-3xl border border-primary bg-card p-6 text-center shadow-[var(--shadow-glow-strong)] sm:p-10 lg:p-14">
-            <div className="mx-auto mb-6 flex size-14 items-center justify-center rounded-2xl bg-primary text-primary-foreground">
+          <div className="mx-auto max-w-5xl rounded-lg border border-primary bg-card p-6 text-center shadow-[var(--shadow-glow-strong)] sm:p-10 lg:p-14">
+            <div className="mx-auto mb-6 flex size-14 items-center justify-center rounded-lg bg-primary text-primary-foreground">
               <TrendingUp className="size-7" aria-hidden="true" />
             </div>
             <h2 className="font-display text-3xl font-black uppercase leading-tight text-foreground sm:text-5xl">
